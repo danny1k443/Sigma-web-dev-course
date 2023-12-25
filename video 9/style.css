@@ -1,0 +1,14 @@
+/* dot is for class*/
+/* hash is for id*/
+.red{
+    color: red;
+
+}
+.bg-yellow{
+    background-color: yellow;
+}
+
+#firstdiv{
+    /* background-color: red; */
+
+}
