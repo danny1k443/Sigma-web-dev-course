@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolor Navbar</title>
+    <style>
+        :root{
+            --primary-color: purple;
+            --tex-color: white;
+            --secon:  rgb(203, 47, 47);
+        }
+        body{
+            background-color: var(--secon);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            background-color: var(--primary-color);
+            padding: 10px 7;
+        }
+
+        ul {
+            display: flex;
+
+        }
+
+       ul li {
+            list-style: none;
+            padding: 10px;
+            color: var(--tex-color);
+        }
+        ul li a{
+            color: var(--tex-color);
+            text-decoration: none;
+            
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Create a multicolor website which can change color using CSS Variables -->
+    <div>
+        <ul>
+            <li><a href="/">Home</li></a>
+            <li><a href="/">About </li></a>
+            <li><a href="/">Contact</li></a>
+        </ul>
+    </div>
+</body>
+
+</html>
